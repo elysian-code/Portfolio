@@ -24,7 +24,7 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <Image src="/assets/ts.png" alt="Your Name" width={400} height={400} className="rounded-full mx-auto" />
+            <Image src="/images/hero.png?width=500&height=500" alt="Yomi Japhet" width={400} height={400} className="rounded-full h-[410px] origin-top object-cover mx-auto" />
           </motion.div>
           <motion.div
             className="md:w-1/2"
@@ -44,9 +44,7 @@ export default function About() {
               continuously learning and adapting to the ever-evolving landscape of web technologies.
             </p>
             <p className="text-lg text-gray-300">
-              When I'm not coding, you can find me contributing to open-source projects, writing technical blog posts,
-              or mentoring aspiring developers. I'm also a  and photography enthusiast, finding inspiration
-              in nature for my creative problem-solving approach to development challenges.
+            When I'm not immersed in coding, you can often find me dedicating my time to contributing to open-source projects, crafting technical blog posts, or sharing my expertise with aspiring developers through mentorship. My creative problem-solving approach to development challenges is greatly inspired by the beauty and complexity of nature, which serves as a constant source of motivation and innovation for me.
             </p>
           </motion.div>
         </div>

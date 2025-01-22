@@ -1,8 +1,8 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Card, CardContent, CardFooter } from "@/app/components/card"
-import { Avatar, AvatarFallback, AvatarImage } from "@/app/components/avatar"
+import { Card, CardContent, CardFooter } from "@/app/components/ui/card"
+import { Avatar, AvatarFallback, AvatarImage } from "@/app/components/ui/avatar"
 import { QuoteIcon } from "lucide-react"
 
 const testimonials = [
@@ -11,21 +11,21 @@ const testimonials = [
     position: "CTO, Tech Innovators Inc.",
     avatar: "/placeholder.svg",
     content:
-      "Your Name is an exceptional developer who consistently delivers high-quality work. Their expertise in full stack development has been invaluable to our team.",
+      "Yomi Japhet is an exceptional developer who consistently delivers high-quality work. Their expertise in full stack development has been invaluable to our team.",
   },
   {
     name: "Jane Smith",
     position: "Project Manager, WebSolutions Co.",
     avatar: "/placeholder.svg",
     content:
-      "Working with Your Name was a pleasure. They have a keen eye for detail and always go above and beyond to ensure project success.",
+      "Working with Yomi Japhet was a pleasure. They have a keen eye for detail and always go above and beyond to ensure project success.",
   },
   {
     name: "Mike Johnson",
     position: "Founder, StartUp Ventures",
     avatar: "/placeholder.svg",
     content:
-      "Your Name's contributions were crucial to the growth of our startup. Their technical skills and problem-solving abilities are truly impressive.",
+      "Yomi Japhet's contributions were crucial to the growth of our startup. Their technical skills and problem-solving abilities are truly impressive.",
   },
 ]
 

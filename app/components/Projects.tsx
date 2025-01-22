@@ -1,5 +1,5 @@
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/app/components/card"
-import { Badge } from "@/app/components/badge"
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/app/components/ui/card"
+import { Badge } from "@/app/components/ui/badge"
 import { Button } from "@/app/components/ui/button"
 import Link from "next/link"
 
@@ -10,14 +10,14 @@ const projects = [
       "A full-featured e-commerce platform with user authentication, product management, and payment integration.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
     liveUrl: "https://example-ecommerce.com",
-    githubUrl: "https://github.com/yourusername/ecommerce-platform",
+    githubUrl: "https://github.com/elysian-code/",
   },
   {
     title: "Task Management App",
     description: "A collaborative task management application with real-time updates and team features.",
     technologies: ["Next.js", "GraphQL", "PostgreSQL", "WebSockets"],
     liveUrl: "https://example-taskapp.com",
-    githubUrl: "https://github.com/yourusername/task-management-app",
+    githubUrl: "https://github.com/elysian-code/",
   },
   // Add more projects as needed
 ]

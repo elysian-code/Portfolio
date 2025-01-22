@@ -1,38 +1,38 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/app/components/card"
-import { Badge } from "@/app/components/badge"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/app/components/ui/card"
+import { Badge } from "@/app/components/ui/badge"
 
 const experiences = [
   {
     title: "Senior Full Stack Developer",
-    company: "Tech Innovators Inc.",
-    period: "2021 - Present",
+    company: "Vyudu Inc.",
+    period: "2024 - Present",
     description:
-      "Lead developer for multiple high-traffic web applications, implementing microservices architecture and improving overall system performance.",
+      "Frontend Lead developer for AI story writing platform [FREEWRITER], created for children ADHD to help improve their writing skill",
     achievements: [
-      "Reduced server response time by 40% through optimized database queries and caching strategies",
-      "Implemented a CI/CD pipeline that decreased deployment time by 60%",
-      "Mentored junior developers, improving team productivity by 25%",
+      "Defined and implemented a scalable component-based architecture, ensuring high performance and maintainability for the platform.",
+      "Guided a team of developers by setting coding standards, conducting code reviews, and fostering collaboration to deliver a high-quality product.",
+      "Directed the development of an accessible and intuitive interface, reducing bounce rates by 25% and improving user retention.",
     ],
   },
   {
     title: "Full Stack Developer",
     company: "WebSolutions Co.",
-    period: "2018 - 2021",
+    period: "2022 - 2024",
     description:
       "Developed and maintained various client projects using React, Node.js, and AWS. Implemented CI/CD pipelines and mentored junior developers.",
     achievements: [
-      "Delivered 15+ successful projects for clients across various industries",
+      "Delivered 7+ successful projects for clients across various industries",
       "Introduced React hooks and context API, reducing codebase complexity by 30%",
       "Implemented serverless architecture, cutting operational costs by 50%",
     ],
   },
   {
     title: "Junior Web Developer",
-    company: "StartUp Ventures",
-    period: "2016 - 2018",
+    company: "Insider's Track",
+    period: "2020 - 2022",
     description:
       "Assisted in the development of the company's main product, gaining hands-on experience with modern web technologies and agile methodologies.",
     achievements: [
